@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class AnimationBoss : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject theSpeedplate;
+
+    private void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Keypad1))
+        {
+            //theSpeedplate.GetComponent<Animator>().Play("1_PinsOut");
+            Debug.Log("1 pressed");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Keypad2))
+        {
+            theSpeedplate.GetComponent<Animator>().Play("2_LeftRightHalvesExpand");
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Play1Pins()
     {
-        
+        theSpeedplate.GetComponent<Animator>().Play("1_PinsOut");
     }
 }
