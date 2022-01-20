@@ -10992,9 +10992,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 7400000, guid: d1848464dc56b6844b8b926db1998c67, type: 2}
+      - m_Target: {fileID: 11500000, guid: 1e2ba78ca4c38b64987f5fdd213f5ce6, type: 3}
         m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: 
+        m_MethodName: set_name
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
