@@ -31,4 +31,19 @@ public class AnimationBoss : MonoBehaviour
         theSpeedplate.GetComponent<Animator>().Play("2_LeftRightHalvesExpand");
         Debug.Log("2 expand played");
     }
+    public void Play3Pins ()
+    {
+        theSpeedplate.GetComponent<Animator>().Play("3_PinsIn");
+        Debug.Log("3 Pins In");
+    }
+    public void Play4Spin()
+    {
+        theSpeedplate.GetComponent<Animator>().Play("4_SpinCircleLock");
+        Debug.Log("4 Spin Circle Lock");
+    }
+    public void Play5Handle()
+    {
+        theSpeedplate.GetComponent<Animator>().Play("3_HandleLockRelease");
+        Debug.Log("3 Handle Lock Release");
+    }
 }
